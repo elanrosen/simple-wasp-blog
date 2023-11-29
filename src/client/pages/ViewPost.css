@@ -1,0 +1,65 @@
+/* ViewPost.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.view-post-container {
+  background-color: #fff; /* Change this color to your preferred background color */
+  border: 1px solid #ddd; /* Add a border for a sleeker appearance */
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.post-content {
+  font-size: 1.25rem;
+  color: #333; /* Change this color to your preferred text color */
+  margin-top: 1rem;
+}
+
+.comments-container {
+  margin-top: 2rem;
+}
+
+.comment-box {
+  background-color: #f7f7f7; /* Change this color to your preferred comment box background color */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comment-text {
+  font-size: 1rem;
+}
+
+.comment-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.add-comment-button {
+  background-color: #008080; /* Change this color to your preferred primary color */
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-comment-button:hover {
+  background-color: #006666; /* Change this color to your preferred hover color */
+}

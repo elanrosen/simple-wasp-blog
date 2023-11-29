@@ -1,0 +1,79 @@
+/* Home.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.home-container {
+  background-color: #fff; /* Change this color to your preferred background color */
+  border: 1px solid #ddd; /* Add a border for a sleeker appearance */
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.create-post-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .create-post-button-container {
+    text-align: center; /* Center the button text within the container */
+  }
+  
+  .create-post-button {
+    background-color: #008080;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    display: inline-block; /* Ensure the button doesn't take the full width */
+  }
+  
+  .create-post-button:hover {
+    background-color: #006666;
+  }
+  
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  font-weight: 600;
+}
+
+.post-link {
+  font-size: 1.25rem;
+  color: #333; /* Change this color to your preferred text color */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-link:hover {
+  color: #008080; /* Change this color to your preferred hover color */
+}
